@@ -27,7 +27,7 @@ jobs:
           git config --local user.email "damsadam78@gmail.com"
           git config --local user.name "haritzzy"
           git add -A
-          git commit -m "chore: commit"
+          git commit -m "what do you want to see?"
             
       - name: Github Push
         uses: ad-m/github-push-action@v0.6.0
