@@ -6,7 +6,7 @@ on:
       - main
       
   schedule: 
-  - cron: "0 2,5,11,17 * * 5,6"
+  - cron: "0 2,5,11,18 * * 5,6"
       
 jobs: 
   auto_commit:
@@ -34,5 +34,5 @@ jobs:
         with: 
           force: true
           directory: '.'
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_REBOISASI }}
           
