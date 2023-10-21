@@ -34,5 +34,5 @@ jobs:
         with: 
           force: true
           directory: '.'
-          github_token: ${{ secrets.GITHUB_REBOISASI }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           
